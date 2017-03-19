@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_secnd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ctadmin.quizapp.secnd">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="169dp"
+            app:srcCompat="@drawable/ravi"
+            android:id="@+id/imageView2"
+            android:layout_weight="0.15" />
+
+        <TextView
+            android:text="Which county did Ravi Shastri play for?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textSize="22sp"
+            android:textStyle="normal|bold" />
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+        <RadioButton
+            android:text="Glanmorgan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/glanmorgan"
+            android:layout_weight="0.15" />
+
+        <RadioButton
+            android:text="Leicestershire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton6"
+            android:layout_weight="0.15" />
+
+        <RadioButton
+            android:text="Gloucestershire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton7"
+            android:layout_weight="0.15" />
+
+        <RadioButton
+            android:text="Lancashire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton8"
+            android:layout_weight="0.15" />
+</RadioGroup>
+    </LinearLayout>
+</RelativeLayout>
